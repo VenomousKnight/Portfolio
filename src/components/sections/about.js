@@ -125,8 +125,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['Market Research', 'Data Analysis', 'Brand Management', 'Digital Marketing', 
-  'SPSS', 'Tableau', 'MS Office', 'Python'];
+  const skills = ['Java', 'Hibernate', 'Spring Framework', 'Spring Data JPA', 'MySQL', 
+    'PostgreSQL', 'Python', 'C++', 'JavaScript', 'HTML', 'CSS', 'Spring'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,34 +135,22 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-            With a core specialization in Marketing &amp; Strategy, I've orchestrated impactful
-             strategies in brand perceptions during my MBA summer internship for {' '}
-             <a href="https://www.tatastructura.com">Tata Structura</a> {' '} at{' '} 
-             <a href="https://drive.google.com/file/d/1xhGTFz7pe6kP7bZ4peDgJ7hlG630K8rz/view?usp=sharing">Tata Steel</a>.
-            </p>
+          <p>
+            With a strong focus on programming, I’ve tackled real-world challenges, presenting solutions through my self-taught skills. 
+            As a Java freelance developer with 2 years of experience, I continuously explore new technologies and development techniques.
+          </p>
 
-            <p>
-            I also spearheaded employer branding initiatives for {' '}
-            <a href="https://drive.google.com/file/d/1w-uN9jb86pxFXPYMDu_78P-d1CZJAx3V/view?usp=sharing">
-              Aditya Birla Fashion and Retail</a>, {' '} resulting in a remarkable 37% surge in consumer engagement 
-              during my remote live project as part of my MBA journey.
-            </p>
+          {/* <p>
+            During my freelance journey, I have worked on impactful projects that solve complex problems in software development, 
+            always aiming to create efficient and scalable solutions.
+          </p> */}
 
-            <p>
-            During my tenure at {' '} <a href="https://www.amdocs.com">Amdocs</a>, {' '} 
-            where I served as a Software Developer, I had the honor of being selected as one of 16 elite {' '} 
-            <a href="https://drive.google.com/file/d/16BGu5InZZDGCtoWas560ezwKsgVBKbI9/view?usp=sharing">Innovation Agents</a>.
-            </p>
-
-            <p>
-            Moreover, my role as a {' '} <a href="https://drive.google.com/file/d/1iRTZfE7v5Y99BYZVxevaGBVtF90t-TOb/view?usp=sharing">
-              Placement Coordinator</a> {' '} at IIM Rohtak saw me cultivate over 30 new corporate relationships, culminating in a 
-              remarkable 42% boost in campus placements.
-            </p>
-
+          <p>
+            I am still learning all I can about programming and enjoy applying my skills to real-life issues, providing meaningful 
+            solutions through code.
+          </p>
             <p>My skills are not limited to this list!</p>
-          </div>
+          </div> 
 
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
@@ -170,16 +158,7 @@ const About = () => {
         </StyledText>
 
         <StyledPic>
-          <div className="wrapper">
-            <StaticImage
-              className="img"
-              src="../../images/me.jpg"
-              width={500}
-              quality={95}
-              formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
-            />
-          </div>
+          
         </StyledPic>
       </div>
     </StyledAboutSection>

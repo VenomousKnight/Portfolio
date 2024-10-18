@@ -59,40 +59,24 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Namaste! My name is</h1>;
-  const two = <h2 className="big-heading">Chandrika Deb</h2>;
-  const three = <h3 className="medium-heading">MBA | Marketing Enthusiast | Freelance Blogger</h3>;
+  const one = <h1>Hello! My name is</h1>;
+  const two = <h2 className="big-heading">Emmanuel Simon</h2>;
+  const three = <h3 className="medium-heading">Freelance Java developer</h3>;
   const four = (
     <>
       <p>
-        <b>Glad to e-meet you!</b>
+        <b>Glad to meet you!</b>
       </p>
 
       <p>
-        I am Chandrika Deb, an alumnus of {' '} <a href="http://www.iimrohtak.ac.in">
-        IIM Rohtak</a> {' '} and {' '} <a href="https://www.bitmesra.ac.in">BIT Mesra</a> {' '} currently spearheading impactful marketing initiatives at {' '}
-        <a href="https://www.tatasteel.com">Tata Steel</a>.
-      </p>
-
-
-      <p>
-        When not decoding the customer journey, you can find me sketching on {' '}
-        <a href="https://pin.it/4W1Rxtj">Pinterest</a> {' '} or writing technical blogs for {' '}
-        <a href="https://www.lambdatest.com">LambdaTest</a> {' '} and other freelance clients.
+        I am Emmanuel Simon, a self-taught Java freelance developer with 2 years of experience in coding. 
+        When not immersed in development, I enjoy playing table tennis and exploring new places.
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://chandrikadeb7.gumroad.com"
-      target="_blank"
-      rel="noreferrer">
-      Check out my products!
-    </a>
-  );
+    
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

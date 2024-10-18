@@ -1,10 +1,10 @@
 module.exports = {
-  email: 'chandrikadeb7@gmail.com',
+  email: 'musavili2022@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/chandrikadeb7',
+      url: 'https://github.com/VenomousKnight',
     },
     {
       name: 'Instagram',
@@ -29,10 +29,10 @@ module.exports = {
       name: 'About',
       url: '/#about',
     },
-    {
-      name: 'Experience',
-      url: '/#jobs',
-    },
+    // {
+    //   name: 'Experience',
+    //   url: '/#jobs',
+    // },
     {
       name: 'Work',
       url: '/#projects',
