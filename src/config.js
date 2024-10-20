@@ -8,20 +8,20 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/chandrikadeb7',
+      url: 'https://www.instagram.com/kra.t.o.s/?next=%2F',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/chandrikadeb7',
+      url: 'https://x.com/ElriClester',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/chandrika-deb',
+      url: 'https://www.linkedin.com/in/emmanuel-simon-655020286/',
     },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/chandrikadeb7',
-    },
+    // {
+    //   name: 'Codepen',
+    //   url: '',
+    // },
   ],
 
   navLinks: [
