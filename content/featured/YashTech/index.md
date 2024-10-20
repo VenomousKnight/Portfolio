@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: 'Medical Record System'
-cover: './2.png'
+cover: './3.png'
 github: 'https://github.com/VenomousKnight/MedicalRecord'
 external: 'https://github.com/VenomousKnight/MedicalRecord'
 tech:

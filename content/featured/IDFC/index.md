@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Amazon Website'
-cover: './difcc.png'
+cover: './amazon.png'
 external: 'https://venomousknight.github.io/Amazon-website/'
 tech:
   - JavaScript

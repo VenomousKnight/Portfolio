@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'ATM simulator'
-cover: './flipkart.png'
+cover: './ATM.png'
 external: ''
 cta: ''
 tech:
