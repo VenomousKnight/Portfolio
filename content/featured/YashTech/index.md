@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'Medical Record System'
 cover: './3.png'
 github: 'https://github.com/VenomousKnight/MedicalRecord'

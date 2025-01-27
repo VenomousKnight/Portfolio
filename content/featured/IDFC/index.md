@@ -2,6 +2,7 @@
 date: '2'
 title: 'Amazon Website'
 cover: './amazon.png'
+github: 'https://github.com/VenomousKnight/Amazon-website'
 external: 'https://venomousknight.github.io/Amazon-website/'
 tech:
   - JavaScript
