@@ -2,7 +2,6 @@
 date: '2024-02-01'
 title: 'Tic Tac Toe'
 github: 'https://github.com/VenomousKnight/TicTacToe'
-external: 'https://github.com/VenomousKnight/TicTacToe'
 tech:
   - Java
 company: 'Project'
